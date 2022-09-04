@@ -1,18 +1,15 @@
 public class Gear {
-      // Properties/Attributes
-      String name;
-      String rarity;
-      float weight;
-      String description;
-  
-      // Method
-      public void seeAllAttributes(){
-          System.out.println("Name:" + name);
-          System.out.println("Rarity:" + rarity);
-          System.out.println("Weight:" + weight);
-       }
-  
-       public void displayGearDescription(){
-          System.out.println("Description:" + description);
-       }
+
+    String gear;
+    String rarity;
+    float weight;
+    String description;
+
+    public void seeAllAttributes(){
+        System.out.println("Gear: " + gear);
+        System.out.println("Rarity: " + rarity);
+        System.out.println("Weight: " + weight);
+        System.out.println(description);
+    }
+    
 }
