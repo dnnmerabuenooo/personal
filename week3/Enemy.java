@@ -1,13 +1,14 @@
 public class Enemy {
-    // Enemy attributes
+    
+    String name;
     int damage;
     int health;
     int armor;
     boolean hasMagicImmunity;
-    String name;
 
-    // Enemy method
-    public void enemyDialogue() {
-        System.out.println("Fear me player for my name is " + name + " and I deal " + damage + " damage!");
+    public void enemyDialogue(){
+        System.out.println("Fear my player for my name is " + name + "and I deal " + damage + " damage!");
+
     }
+
 }
