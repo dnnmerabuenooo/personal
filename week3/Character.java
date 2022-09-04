@@ -1,13 +1,13 @@
 public class Character {
-    // Character attributes
+    
+    String name;
     int strength;
     int agility;
     int intelligence;
-    String name;
 
-    // Character method
-    public void sayMyName() {
-        System.out.println("Hello I am " + name);
+    public void sayMyName(){
+        System.out.println("Hello! I am " + name);
+
     }
 
     public void seeAllAttributes(){
