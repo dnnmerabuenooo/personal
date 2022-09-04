@@ -82,7 +82,7 @@ public class App {
          // Weapon Class
          Weapon gun = new Weapon();
 
-         gun.name = "Shotgun";
+         gun.type = "Shotgun";
          gun.damage = 200;
          gun.weight = 3.0f;
          gun.rarity = "Epic";
@@ -90,11 +90,10 @@ public class App {
          gun.isEternal = false;
 
          gun.showAllAttributes();
-         gun.displayweaponDescription();
 
          Weapon knife = new Weapon();
 
-         knife.name = "Melee";
+         knife.type = "Melee";
          knife.damage = 300;
          knife.weight = 1.0f;
          knife.rarity = "Legendary";
@@ -102,28 +101,27 @@ public class App {
          knife.isEternal = true;
 
          knife.showAllAttributes();
-         knife.displayweaponDescription();
 
          // Gear Class
          Gear helmet = new Gear();
 
-         helmet.name = "Paula's Helmet";
+         helmet.gear = "Paula's Helmet";
          helmet.rarity = "Common";
          helmet.weight = 2.5f;
          helmet.description = "A common helmet owned by Paula";
 
          helmet.seeAllAttributes();
-         helmet.displayGearDescription();
+         
 
          Gear armor = new Gear();
 
-         armor.name = "Chen's Body Armor";
+         armor.gear = "Chen's Body Armor";
          armor.rarity = "Rare";
          armor.weight = 7.0f;
          armor.description = "A rare helmet owned by Chen";
 
          armor.seeAllAttributes();
-         armor.displayGearDescription();
+        
 
 
 
