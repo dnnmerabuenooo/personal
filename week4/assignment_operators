@@ -1,0 +1,55 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        // Assignment operators are used to assign values to variables.
+        int x = 6;
+        int a = 4;
+        int b = 3;
+        int c = 8;
+        int d = 5;
+
+        // The addition assignment operator (+=)
+        // Adds value and assigns to a variable
+
+        // Same as x = x + 5;
+        // x = 6 + 5;
+        // x = 12;
+        x += 5;
+        System.out.println(x);
+
+        // The subtraction assignment operator (-=)
+        // Subtracts value and assigns to a variable
+
+        // Same as a = a - 3;
+        // a = 4 - 3
+        // a = 1
+        a -= 3;
+        System.out.println(a);
+
+        // The multiplication assignment operator (*=)
+        // multiply value and assigns to a variable
+        
+        // b = b * 3;
+        // b = 3 * 3;
+        // b = 9
+        b *= 3;
+        System.out.println(b);
+
+        // The division assignment operator (/=)
+        // Divides value and assigns to a variable
+
+        // Same as c = c / 3;
+        // c = 8 / 3;
+        // c = 2
+        c /= 3;
+        System.out.println(c);
+
+        // The modulo assignment operator (%=)
+        // Gets remainder value and assigns to a variable
+        // Same as d = d % 4;
+        // d = 5 % 4
+        // d = 2
+        d %= 4;
+        System.out.println(d);
+    }
+}
