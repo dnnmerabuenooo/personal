@@ -1,0 +1,43 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        // Comparison/Relational operators are used to compare two values:
+        int x = 4;
+        int y = 6;
+        int a = 2;
+        int b = 2;
+
+        // Equal to (==)
+        System.out.println(x + " == " + y);
+        System.out.println(x == y);
+
+        // Not Equal to (!=)
+        System.out.println(x + " != " + y);
+        System.out.println(x != y);
+
+        // Greater than (>)
+        System.out.println(x + " > " + y);
+        System.out.println(x > y);
+        System.out.println(y + " > " + x);
+        System.out.println(y > x);
+
+        // Less than (<)
+        System.out.println(x + " < " + y);
+        System.out.println(x < y);
+        System.out.println(y + " < " + x);
+        System.out.println(y < x);
+
+        // Greater than or equal to (>=)
+        System.out.println(x + " >= " + y);
+        System.out.println(x >= y);
+        System.out.println(a + " >= " + b);
+        System.out.println(a >= b);
+
+        // Less than or equal to (<=)
+        System.out.println(x + " <= " + y);
+        System.out.println(x <= y);
+        System.out.println(b + " <= " + a);
+        System.out.println(b <= a);
+
+    }
+}
