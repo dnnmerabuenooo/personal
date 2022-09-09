@@ -1,0 +1,38 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        // Arithmetic Operators
+        int x = 10;
+        int y = 7;
+
+        // Addition
+        System.out.println(x + "+" + y + "=");
+        System.out.println(x + y);
+
+        // Subtraction
+        System.out.println(y + "-" + x + "=");
+        System.out.println(y - x);
+
+        // Multiplication
+        System.out.println(x + "*" + y + "=");
+        System.out.println(x * y);
+
+        // Division
+        System.out.println(y + "/" + x + "=");
+        System.out.println(x / y);
+
+        // Modulo
+        System.out.println(x + "%" + y + "=");
+        System.out.println(x % y);
+
+        // Increment
+        System.out.println("The value of x is " + x);
+        x++;
+        System.out.println("x is now " + x);
+
+        // Decrement
+        System.out.println("The value of y is " + y);
+        y--;
+        System.out.println("y is now " + y);
+    }
+}
